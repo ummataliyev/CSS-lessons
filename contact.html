@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio - Contact</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/contact.css">
+    </head>
+    <body>
+        <!-- Header section -->
+        <header class="main-header">
+            <div class="container">
+                <div class="main-header__brand">
+                    <a href="index.html">
+                        <img src="./images/mainlogo.png" alt="Logo">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation__items">
+                        <li class="main-navigation__item active">
+                            <a href="./index.html">Main</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">About me</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Clients</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Patrners</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /Header section -->
+
+        <div class="container">
+            <section class="contact">
+                <div class="section-title">
+                    Contact me
+                </div>
+                <form action="/server.php" method="GET">
+                    <textarea rows="10" placeholder="Enter your message" name="message"></textarea>
+                    <div class="half-row contact__firstname">
+                        <input type="text" placeholder="Enter your name" name="firstname">
+                    </div>
+                    <div class="half-row contact__email">
+                        <input type="email" placeholder="Enter your email adress" name="email">
+                    </div>
+                    <input type="text" placeholder="Enter Subject" name="subject">
+                    <button class="button contact__send" type="submit">Send message</button>
+                </form>
+            </section>
+        </div>
+        <!-- Footer section -->
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Main</a>
+                    </li>
+                    <li>
+                        <a href="#">About me</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Partners</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- /Footer section -->
+    </body>
+</html>
